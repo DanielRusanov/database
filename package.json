@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "start":"node app.js"
+    "start": "node app.js",
+    "seeder": "node seeder.js",
+    "seedProduction": "cross-env NODE_ENV=production node seeder.js"
   },
   "keywords": [],
   "author": "",
